@@ -19,7 +19,7 @@ namespace TestSimpleLexer
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    //[Ignore("This test is disabled")]
     public class TestSimpleLexer
     {
         public static List< KeyValuePair<Tok, string> > getLexerOutput(Lexer l)
@@ -56,7 +56,7 @@ namespace TestSimpleLexer
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    //[Ignore("This test is disabled")]
     public class TestSimpleLexerOps
     {
         [Test]
@@ -126,7 +126,7 @@ namespace TestSimpleLexer
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    //[Ignore("This test is disabled")]
     public class TestSimpleLexerAssigns
     {
         [Test]
@@ -164,7 +164,7 @@ namespace TestSimpleLexer
     public class TestSimpleLexerComparisons
     {
         [Test]
-        [Ignore("This test is disabled")]
+        //[Ignore("This test is disabled")]
         public void TestComparisons()
         {
             string text = @"><>>=<=+<> > <=";
@@ -218,7 +218,7 @@ namespace TestSimpleLexer
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    //[Ignore("This test is disabled")]
     public class TestSimpleLexerLineCmt
     {
         [Test]
@@ -280,7 +280,7 @@ namespace TestSimpleLexer
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    //[Ignore("This test is disabled")]
     public class TestSimpleLexerMultLineCmt
     {
         [Test]

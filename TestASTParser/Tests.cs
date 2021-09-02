@@ -76,7 +76,7 @@ namespace TestASTParser
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    ////[Ignore("This test is disabled")]
     public class WriteTests
     {
         
@@ -94,7 +94,7 @@ namespace TestASTParser
     {
         
         [Test]
-        [Ignore("This test is disabled")]
+        //[Ignore("This test is disabled")]
         public void TestIf()
         {
             Assert.Fail();
@@ -102,7 +102,7 @@ namespace TestASTParser
         }
         
         [Test]
-        [Ignore("This test is disabled")]
+        //[Ignore("This test is disabled")]
         public void TestVarDef()
         {
             Assert.Fail();

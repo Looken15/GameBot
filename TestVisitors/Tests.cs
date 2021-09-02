@@ -20,7 +20,7 @@ namespace TestVisitors
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    //[Ignore("This test is disabled")]
     public class TestAvgOpCount: ParserTest
     {
         [Test]
@@ -72,7 +72,7 @@ namespace TestVisitors
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    //[Ignore("This test is disabled")]
     public class TestCommonVariable: ParserTest
     {
         [Test]
@@ -97,7 +97,7 @@ namespace TestVisitors
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    //[Ignore("This test is disabled")]
     public class TestExprComplexity: ParserTest
     {
         [Test]
@@ -202,7 +202,7 @@ namespace TestVisitors
     }
     
     [TestFixture]
-    [Ignore("This test is disabled")]
+    //[Ignore("This test is disabled")]
     public class TestIfCycleNest: ParserTest
     {
         [Test]

@@ -40,7 +40,7 @@ namespace TestGeneratedLexer
         }
         
         [Test]
-        [Ignore("This test is disabled")]
+        ////[Ignore("This test is disabled")]
         public void TestString()
         {
             LexerAddon lexer = new LexerAddon(@"3 389 3 'ssfsf ' ");
@@ -50,7 +50,7 @@ namespace TestGeneratedLexer
         }
         
         [Test]
-        [Ignore("This test is disabled")]
+        ////[Ignore("This test is disabled")]
         public void TestSingleLineCmt()
         {
             LexerAddon lexer = new LexerAddon(@"i22d1 5.6  // i 32 id3
@@ -63,7 +63,7 @@ namespace TestGeneratedLexer
         }
         
         [Test]
-        [Ignore("This test is disabled")]
+        ////[Ignore("This test is disabled")]
         public void TestMultiLineCmt()
         {
             LexerAddon lexer = new LexerAddon(@"i22d1 5.6  { i 32 id3
@@ -76,7 +76,7 @@ namespace TestGeneratedLexer
         }
         
         [Test]
-        [Ignore("This test is disabled")]
+        ////[Ignore("This test is disabled")]
         public void TestMultiLineCmtIds()
         {
             LexerAddon lexer = new LexerAddon(@"i22d1 5.6  { i 32 id3
